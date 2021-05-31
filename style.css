@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+* {
+  /*border: solid 1px red;*/
+  position: relative;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  background-color: #f2e9eb;
+  margin-top: 10%;
+}
+.Home {
+  width: 1920px;
+}
+.image {
+  width: 120px;
+  height: 120px;
+  background: url(https://github.com/Yungchichen/image/blob/gh-pages/u7.jpg?raw=true);
+  background-size: 130px;
+  background-position: 0px -10px;
+  border: solid 5px white;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+.name {
+  background-color: #31383f;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 10px 20px 35px;
+  width: 360px;
+  height: 60px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.name:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  background-color: gray;
+  top: 0px;
+  right: 15px;
+}
+.smalltext {
+  font-size: 20px;
+}
+hr {
+  background-color: #31383f;
+  padding: 0.2px;
+  margin-left: 175px;
+  margin-right: 175px;
+  margin-top: -15px;
+  margin-bottom: -25px;
+}
+.content {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 8px;
+  display: flex;
+  color: #31383f;
+  justify-content: center;
+}
+.want {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: white;
+  width: 120px;
+  padding: 5px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  font-family: "Noto Sans TC", sans-serif;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  transition: 0.5s;
+}
+.want:hover {
+  background-color: #dd81a4;
+  color: black;
+  transform: scale(1.2);
+}
+a {
+  color: #31383f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
